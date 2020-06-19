@@ -223,7 +223,6 @@ const ContactForm = (props: PageProps) => {
 
       <div className={`tab tab-thank-you ${activeTab.id === 'thank-you' ? 'active' : ''}`}>
         <h2>Your message is on the way</h2>
-        <h4>TODO - Compose contact form completion text</h4>
       </div>
 
     </div>
