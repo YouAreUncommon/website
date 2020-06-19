@@ -1,0 +1,69 @@
+/***
+ * Norwester
+ */
+
+@font-face {
+  font-family: 'Norwester';
+  src: url('../fonts/Norwester/Norwester.woff2') format('woff2'),
+       url('../fonts/Norwester/Norwester.woff') format('woff'),
+       url('../fonts/Norwester/Norwester.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+/**
+ * Hevectica Neue
+ */
+
+@font-face {
+  font-family: 'Helvectica Neue';
+  src: url('../fonts/HelveticaNeue/HelveticaNeue-Light.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvectica Neue';
+  src: url('../fonts/HelveticaNeue/HelveticaNeue-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvectica Neue';
+  src: url('../fonts/HelveticaNeue/HelveticaNeue-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/**
+ * Open Sans
+ */
+
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans/OpenSans-Light.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans/OpenSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans/OpenSans-Bold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans/OpenSans-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}

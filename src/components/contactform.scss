@@ -1,0 +1,40 @@
+.contact-form {
+  // outline: 1px solid red;
+
+  padding: 0;
+  margin: 0;
+
+  .section-contents {
+    // outline: 1px solid red;
+  }
+
+  input, textarea, select {
+    font-family:  "Helvectica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    // min-height: 60px;
+    width: 100%;
+    padding: 10px;
+    color: rgb(255,255,255);
+    background: rgb(0,0,0);
+    border: 1px solid rgb(255,255,255);
+    -webkit-appearance: none;
+    border-radius: 0;
+  }
+  textarea {
+    min-height: 10rem;
+  }
+  label {
+    font-size: 20px;
+  }
+
+  .tabs {
+    // outline: 1px solid red;
+    display: block;
+    width: 100%;
+  }
+
+
+  
+
+
+}
