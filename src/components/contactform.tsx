@@ -4,18 +4,20 @@ import { PageProps, Link } from "gatsby"
 import axios from 'axios';
 import qs from 'qs';
 
+import { 
+  useGlobalState,
+  setGlobalState,
+  tabs
+ } from '../store';
+
 import './contactform.scss'
 
 
 
 const ContactForm = (props: PageProps) => {
 
-  const tabs = [
-    { id: 'talent', name: 'Talent Hunt' },
-    { id: 'job', name: 'Job Hunt' },
-    // { id: 'thank-you', name: 'Thank You' },
-  ];
-  const [activeTab, setActiveTab] = useState(tabs[0]);
+  const [ activeTab ] = useGlobalState('activeTab');
+
   useEffect(() => {
     // console.log('Active tab:\n', activeTab);
   }, [activeTab]);
@@ -97,12 +99,12 @@ const ContactForm = (props: PageProps) => {
     .then((resp) => {
       console.log('Submitted', resp);
       console.log('Message sent - TODO - Email send confirmation overlay');
-      setActiveTab({ id: 'thank-you', name: 'Thank You' });
+      setGlobalState('activeTab', { id: 'thank-you', name: 'Thank You' });
     })
     .catch((resp) => {
       console.error('Error Submitting', resp);
     })
-    setActiveTab({ id: 'thank-you', name: 'Thank You' });
+    setGlobalState('activeTab', { id: 'thank-you', name: 'Thank You' });
     
 
   }
@@ -114,7 +116,7 @@ const ContactForm = (props: PageProps) => {
           tabs.map(tab => (
             <button 
               key={tab.id} 
-              onClick={() => setActiveTab(tab)} 
+              onClick={() => setGlobalState('activeTab', tab)} 
               className={`buttons ${activeTab.id === tab.id ? 'active' : ''}`}
             >
               {tab.name}

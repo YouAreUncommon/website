@@ -1,7 +1,12 @@
 import React, { useState, useEffect } from "react"
 import { Link } from "gatsby"
 import ReactFullpage from "@fullpage/react-fullpage"
-import Reveal from 'react-reveal/Reveal';
+
+import { 
+  useGlobalState,
+  setGlobalState,
+  tabs
+ } from '../store';
 
 import useWindowSize from '../utils/useWindowSize'
 
@@ -30,6 +35,8 @@ const IndexPage = () => {
     slideIndex: 0,
     mobileMenuOpen: false
   });
+
+  const [ activeTab ] = useGlobalState('activeTab');
 
   const onLeave = (origin, destination, direction) => {
     // console.log('onLeave', { origin, destination, direction });
@@ -134,10 +141,16 @@ const IndexPage = () => {
                     <TextFlip />
                   </div>
                   <div className={`contact-form-links`}>
-                    <button onClick={() => fullpageApi.moveTo(7, 0)} className={`buttons`}>
+                    <button onClick={() => {
+                      fullpageApi.moveTo(7, 0);
+                      setGlobalState('activeTab', tabs[0]);
+                    }} className={`buttons`}>
                       I need uncommon talent
                     </button>
-                    <button onClick={() => fullpageApi.moveTo(7, 0)} className={`buttons`}>
+                    <button onClick={() => {
+                      fullpageApi.moveTo(7, 0);
+                      setGlobalState('activeTab', tabs[1]);
+                    }} className={`buttons`}>
                       I am uncommon talent
                     </button>
                   </div>
