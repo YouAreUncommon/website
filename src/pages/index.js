@@ -166,7 +166,7 @@ const IndexPage = () => {
                   <h2>01.</h2>
                   <div className={`container-timeline-section`}>
                     <h3>Vision</h3>
-                    <p>Our goal is to banish every frustration you've ever had when trying to hire great talent, tough job we know but it's our mission to make hiring the Uncommon, Common.
+                    <p>Our goal is to banish every frustration you've ever had when trying to hire great talent, tough job we know but it's our mission to make hiring the Uncommon, common.
                     </p>
                   </div>
                 </div>
