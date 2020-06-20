@@ -197,7 +197,7 @@ const IndexPage = () => {
                   <h2>03.</h2>
                   <div className={`container-timeline-section`}>
                     <h3>Unlimited</h3>
-                    <p>Uncommon is here to unleash your hiring potential, giving you unlimted ownership of any prospective talent we engage with on your behalf. Through talent pools and technology innovation we help you create a model that is cost effective.
+                    <p>Uncommon is here to unleash your hiring potential, giving you unlimited ownership of any prospective talent we engage with on your behalf. Through talent pools and technology innovation we help you create a model that is cost effective.
                     </p>
                   </div>
                 </div>
