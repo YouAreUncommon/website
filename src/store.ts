@@ -9,6 +9,7 @@ export const tabs = [
 
 const initialState = {
   activeTab: tabs[0],
+  loaded: false
 };
 
 

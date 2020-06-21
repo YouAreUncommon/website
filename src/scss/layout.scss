@@ -7,11 +7,13 @@
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  background: rgb(0,0,0);
 }
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(0,0,0);
 }
 article,
 aside,
@@ -984,12 +986,12 @@ body {
       &:first-child .profile-container {
         // background: green;
         float: right;
-        padding: 0 40px 0 0;
+        padding: 0 80px 0 0;
       }
       &:last-child .profile-container {
         // background: yellow;
         float: left;
-        padding: 0 0 0 40px;
+        padding: 0 0 0 80px;
       }
 
       .profile-container {

@@ -37,6 +37,7 @@ const IndexPage = () => {
   });
 
   const [ activeTab ] = useGlobalState('activeTab');
+  const [ loaded ] = useGlobalState('loaded');
 
   const onLeave = (origin, destination, direction) => {
     // console.log('onLeave', { origin, destination, direction });
@@ -56,10 +57,35 @@ const IndexPage = () => {
     }
   },[windowSize.width]);
 
+  useEffect(()=> {
+    console.log('Everything loaded');
+    setTimeout(() => {
+      setGlobalState('loaded', true);
+    }, 350);
+  }, [])
+
 
   return (
     <Layout>
       <SEO title="Home" />
+
+
+      {
+          loaded === false &&
+          <div 
+            className={`loading`}
+            style={{
+              top: 0, 
+              right: 0, 
+              bottom: 0, 
+              left: 0, 
+              position: 'absolute',
+              zIndex: 2,
+              background: 'rgba(0,0,0,1)'
+            }}
+          >
+          </div>
+        }      
 
       <nav className={`main-navigation slide-index-${animations.slideIndex} ${animations.mobileMenuOpen ? 'open' : '' }`}>
         <ul>
