@@ -49,7 +49,6 @@ const TextFlip = () => {
     if (windowSize.width <= 1024) newSize = 'XXL'
     if (windowSize.width <= 425) newSize = 'L'
     setSize(newSize)
-    console.log('Size', newSize)
   }, [windowSize.width]);
 
 

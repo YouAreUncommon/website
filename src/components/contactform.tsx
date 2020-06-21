@@ -19,7 +19,6 @@ const ContactForm = (props: PageProps) => {
   const [ activeTab ] = useGlobalState('activeTab');
 
   useEffect(() => {
-    // console.log('Active tab:\n', activeTab);
   }, [activeTab]);
 
   const [form, setState] = useState({
@@ -49,7 +48,6 @@ const ContactForm = (props: PageProps) => {
   };
 
   useEffect(() => {
-    // console.log('All values:\n', JSON.stringify(form, null, 2));
   }, [form]);
 
   const handleSubmit = (evt) => {
@@ -77,13 +75,6 @@ const ContactForm = (props: PageProps) => {
         Main drivers are: ${form.talentMotivations}. \n\n
       `;
 
-    // console.log(
-    //   'Composed message',
-    //   JSON.stringify(form, null, 2),
-    //   activeTab.id,
-    //   JSON.stringify(composed, null, 2),
-    // );
-
 
     const headers =  {
       headers: {
@@ -97,12 +88,11 @@ const ContactForm = (props: PageProps) => {
         qs.stringify(composed)
       )
     .then((resp) => {
-      console.log('Submitted', resp);
-      console.log('Message sent - TODO - Email send confirmation overlay');
+      // console.log('Submitted', resp);
       setGlobalState('activeTab', { id: 'thank-you', name: 'Thank You' });
     })
     .catch((resp) => {
-      console.error('Error Submitting', resp);
+      // console.error('Error Submitting', resp);
     })
     setGlobalState('activeTab', { id: 'thank-you', name: 'Thank You' });
     

@@ -40,7 +40,6 @@ const IndexPage = () => {
   const [ loaded ] = useGlobalState('loaded');
 
   const onLeave = (origin, destination, direction) => {
-    // console.log('onLeave', { origin, destination, direction });
     setAnimation({ ...animations, slideIndex: destination.index })
   };
 
@@ -51,14 +50,12 @@ const IndexPage = () => {
   }
 
   useEffect(() => {
-    // console.log('Window size', windowSize);
     if (windowSize.width < 691) {
       setAnimation({ ...animations, mobileMenuOpen: false });
     }
   },[windowSize.width]);
 
   useEffect(()=> {
-    console.log('Everything loaded');
     setTimeout(() => {
       setGlobalState('loaded', true);
     }, 350);
@@ -114,7 +111,6 @@ const IndexPage = () => {
               Contact Us
             </a>
           </li>
-          {/* <li>{windowSize.width}</li> */}
         </ul>
       </nav>
       <button 
@@ -122,7 +118,6 @@ const IndexPage = () => {
           `mobile-menu-toggle slide-index-${animations.slideIndex}`
         }
         onClick={() => {
-          // console.log('Mobile menu')
           if (animations.mobileMenuOpen === false) {
             setAnimation({ ...animations, mobileMenuOpen: true });
           }

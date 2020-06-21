@@ -764,10 +764,6 @@ body {
 .section-home {
 
   .section-contents {
-    // Defaults
-    // max-width: 1400px;
-    // margin: inherit 8rem;
-    // outline: 1px solid blue;
     margin: 0;
     h4 {
       font-size: 50px;
@@ -775,13 +771,10 @@ body {
       letter-spacing: .25rem
     }
     .home-animation {
-      // outline: 1px solid green;
       margin: 0 4rem;
       display: block;
     }
     .contact-form-links {
-      // outline: 1px solid red;
-      // background: red;
       position: absolute;
       bottom: 0;
       width: calc(100% - 2px);
@@ -823,7 +816,6 @@ body {
 .bounce-2 {
   animation-name: bounce-2;
   animation-timing-function: ease;
-  // outline: 1px solid red;
 }
 @keyframes bounce-2 {
   0%   { transform: translateY(0); }
@@ -878,7 +870,6 @@ body {
 .section-timeline {
 
   h2 {
-    // outline: 1px solid yellow;
     position: relative;
     width: 40%;
     float: left;
@@ -893,7 +884,6 @@ body {
     color: black;
   }
   .container-timeline-section {
-    // outline: 1px solid yellow;
     float: right;
     width: 60%;
     padding: 0 5% 0 0;
@@ -959,7 +949,6 @@ body {
 }
 
 .section-team {
-  // outline: 1px solid red;
   h3 {
     font-size: 80px;
     font-family: 'Norwester', sans-serif;
@@ -976,7 +965,6 @@ body {
   }
 
   .profiles {
-    // outline: 1px solid red;
     margin: 10rem 0 5rem 0;
     display: flex;
     flex-direction: row;
@@ -984,20 +972,16 @@ body {
       width: 50%;
 
       &:first-child .profile-container {
-        // background: green;
         float: right;
         padding: 0 80px 0 0;
       }
       &:last-child .profile-container {
-        // background: yellow;
         float: left;
         padding: 0 0 0 80px;
       }
 
       .profile-container {
-        // outline: 1px solid red;
         .profile-image {
-          // background-color: rgba(0,194,203,.4);
           background-position:  50% 50%;
           width: 400px;
           height: 400px;
@@ -1008,8 +992,6 @@ body {
         }
 
         h4, h5 {
-          // outline: 1px solid red;
-          // margin: 0;
           float: left;
           clear: both;
           width: 100%;
@@ -1025,7 +1007,6 @@ body {
         }
   
         .social-icon {
-          // outline: 1px solid red;
           display: inline-block;
           height: 0;
           overflow: hidden;
@@ -1069,13 +1050,9 @@ body {
   }
 
   .partners {
-    // outline: 1px solid red;
     display: flex;
     flex-flow: row nowrap;
-    // flex-flow: row nowrap;
     .partner {
-    //  outline: 1px solid black;
-      // width: 100%;
       width: 40%;
       margin: 20px 20px 20px 0px;
       display: flex;
@@ -1083,7 +1060,6 @@ body {
       align-items: center; 
 
      img {
-      // outline: 1px solid black;
       width: 90%;
      }
      &:first-child {
@@ -1239,16 +1215,12 @@ body {
 
 
 @media only screen and (max-height: 1280px) {
-  * {
-    // outline: 1px dotted red;
-  }
   
   $h3-title: 40px;
 
   h3 {
     &, &.fixed-title {
       font-size: $h3-title;
-      // outline: 1px dotted lime;
     }
   }
 
@@ -1329,7 +1301,6 @@ body {
     padding: 0;
     width: auto;
     ul {
-      // outline: 1px solid blue;
       padding: 20vh 0;
       display: flex;
       flex-direction: column;
@@ -1372,7 +1343,6 @@ body {
     right: 0;
     margin: 20px;
     outline: none;
-    // outline: 1px solid red;
     &.slide-index-0,
     &.slide-index-1, 
     &.slide-index-5, 
@@ -1387,10 +1357,6 @@ body {
   }
 
 
-  /**
-   * Last moment changes
-   */
-  
   .section-timeline {
     .section-contents {
       h3 {
@@ -1399,12 +1365,10 @@ body {
           display: inline-block !important;
           width: auto !important;
           top: 10vh !important;
-          // outline: 1px solid red;
         }
       }
       h2 {
         font-size: 50px !important;
-        // outline: 1px solid red;
       }      
     }
   }
@@ -1416,10 +1380,6 @@ body {
 
 
 @media only screen and (max-width: 450px) {
-
-  * {
-    // outline: 1px dotted cyan;
-  }
 
   $h3-title: 20px;
 
@@ -1459,7 +1419,6 @@ body {
   .section-timeline {
     .section-contents {
       h3, h2, .container-timeline-section {
-        // outline: 1px solid magenta;
         position: relative;
         display: inline-block;
         clear: both;
