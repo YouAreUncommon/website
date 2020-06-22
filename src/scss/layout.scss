@@ -1058,10 +1058,10 @@ body {
       display: flex;
       justify-content: center; 
       align-items: center; 
-
-     img {
-      width: 90%;
-     }
+      img {
+        width: 90%;
+        // height: auto;
+      }
      &:first-child {
        margin-left: 0;
      }
@@ -1266,7 +1266,17 @@ body {
     .partners {
       .partner {
         width: 50%;
-        margin: 0px 10px 0px 10px;
+        margin: 0 10px 20px 10px;
+        a  {
+          float: left;
+          position: relative;
+          display: inline-block;
+          width: 50%;
+          img {
+            width: 90%;
+          }
+        }
+  
       }
     }
   }
@@ -1372,6 +1382,34 @@ body {
       }      
     }
   }
+
+  .section-partners {
+    h3 {
+      margin: 0 0 10vh 0;
+    }
+    .partners {
+      // SPEC - Single column
+      // display: block;
+  
+      .partner {
+        width: 100%;
+        margin: 0px 10px 0px 10px;
+        clear: both;
+
+        a  {
+          float: left;
+          position: relative;
+          display: inline-block;
+          width: 100%;
+          img {
+            width: 90%;
+          }
+        }
+  
+      }
+    }
+  }
+
 
 }
 
