@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 84 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Shape</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="noun_Email_1911586" transform="translate(0.000000, -1.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Group" transform="translate(0.000000, 0.637820)">
+                <path d="M4.4062,0.36217 L40.8438,32.9872 C41.2719,33.3705 42.7281,33.3705 43.1562,32.9872 L79.5938,0.36217 L4.4062,0.36217 Z M0,4.48717 L0,50.206 L25.375,27.206 L0,4.48717 Z M84,4.48717 L58.625,27.206 L84,50.206 L84,4.48717 L84,4.48717 Z M29.9062,31.2372 L4.3438,54.3622 L79.6562,54.3622 L54.0938,31.2372 L47.1562,37.456 C44.1899,40.1114 39.8101,40.1114 36.8438,37.456 L29.9062,31.2372 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
