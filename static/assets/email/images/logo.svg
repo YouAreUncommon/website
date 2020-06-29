@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="375px" viewBox="0 0 375 375" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <defs>
+        <polygon id="path-1" points="0.499998438 0.460018437 300.499986 0.460018437 300.499986 300.460006 0.499998438 300.460006"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="You-Are-Uncommon">
+            <g id="Group" transform="translate(0.000000, -0.000009)">
+                <g id="Group-2" transform="translate(0.000000, 0.000009)">
+                    <rect id="Rectangle" stroke="#000000" fill="#000000" x="0" y="0" width="375" height="375"></rect>
+                    <g id="Group-17" transform="translate(37.000000, 37.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-9"></g>
+                        <polygon id="Fill-8" fill="#FFFFFF" mask="url(#mask-2)" points="291.600015 291.560035 300.500009 291.560035 300.500009 300.460029 291.600015 300.460029"></polygon>
+                        <polygon id="Fill-10" fill="#FFFFFF" mask="url(#mask-2)" points="0.499998437 9.46001878 9.49999878 9.46001878 9.49999878 291.560035 0.499998437 291.560035"></polygon>
+                        <polygon id="Fill-11" fill="#FFFFFF" mask="url(#mask-2)" points="0.499998437 291.560035 9.49999878 291.560035 9.49999878 300.460029 0.499998437 300.460029"></polygon>
+                        <polygon id="Fill-12" fill="#FFFFFF" mask="url(#mask-2)" points="291.600015 9.46001878 300.500009 9.46001878 300.500009 291.560035 291.600015 291.560035"></polygon>
+                        <polygon id="Fill-13" fill="#FFFFFF" mask="url(#mask-2)" points="9.49999878 291.560035 291.600015 291.560035 291.600015 300.460029 9.49999878 300.460029"></polygon>
+                        <polygon id="Fill-14" fill="#FFFFFF" mask="url(#mask-2)" points="291.600015 0.460018437 300.500009 0.460018437 300.500009 9.46001878 291.600015 9.46001878"></polygon>
+                        <polygon id="Fill-15" fill="#FFFFFF" mask="url(#mask-2)" points="0.499998437 0.460018437 9.49999878 0.460018437 9.49999878 9.46001878 0.499998437 9.46001878"></polygon>
+                        <polygon id="Fill-16" fill="#FFFFFF" mask="url(#mask-2)" points="9.49999878 0.460018437 291.600015 0.460018437 291.600015 9.46001878 9.49999878 9.46001878"></polygon>
+                    </g>
+                    <path d="M204.24,302.545129 C231.5,302.545129 246,288.045129 246,260.785129 L246,76.3451293 C246,73.1551293 243.39,70.5451293 240.2,70.5451293 L213.52,70.5451293 C210.33,70.5451293 207.72,73.1551293 207.72,76.3451293 L207.72,252.665129 C207.72,260.495129 203.66,264.265129 196.12,264.265129 L181.04,264.265129 C173.5,264.265129 169.44,260.495129 169.44,252.665129 L169.44,76.3451293 C169.44,73.1551293 166.83,70.5451293 163.64,70.5451293 L135.8,70.5451293 C132.61,70.5451293 130,73.1551293 130,76.3451293 L130,260.785129 C130,288.045129 144.5,302.545129 171.76,302.545129 L204.24,302.545129 Z" id="U" fill="#FFFFFF" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
