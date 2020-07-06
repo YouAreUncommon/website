@@ -33,7 +33,7 @@ const TextFlip = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setInc(inc => inc < WORDS.length - 1 ? inc + 1 : 0);
-    }, 3250);
+    }, 4050);
     return () => clearInterval(interval);
   });
 
@@ -59,7 +59,7 @@ const TextFlip = () => {
       length={8}
       value={word}
       className={`text-flip ${size}`}
-      timing={0}
+      timing={50}
     />
   )
 };
