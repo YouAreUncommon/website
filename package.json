@@ -6,7 +6,7 @@
   "author": "Leslie @ Localhost <leslie@localhost.international>",
   "dependencies": {
     "@fullpage/react-fullpage": "^0.1.17",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "form-data": "^3.0.0",
     "formik": "^2.1.4",
     "gatsby": "^2.21.13",
